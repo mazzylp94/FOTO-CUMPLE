@@ -583,4 +583,4 @@ export const photos = [
     "thumb": "foto-146.webp",
     "original": "PICT_20261121_182821.JPG"
   }
-];\n
+];
