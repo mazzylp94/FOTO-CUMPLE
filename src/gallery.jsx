@@ -4,8 +4,16 @@ import { Download, X, ChevronLeft, ChevronRight, Images, LoaderCircle } from 'lu
 import { photos } from './photos';
 
 const BASE = 'https://pub-eb440d2765f74a2a863d11572a036375.r2.dev';
-const thumbUrl = (name) => `${BASE}/thumbs/${encodeURIComponent(name)}`;
-const originalUrl = (name) => `${BASE}/originales/${encodeURIComponent(name)}`;
+const thumbUrl = (name) => {
+  const number = name.match(/^foto-(\d+)\.webp$/i);
+  const fixedName = number
+    ? `foto-${number[1].padStart(3, '0')}.webp`
+    : name;
+  return `${BASE}/thumbs/${encodeURIComponent(fixedName)}`;
+};
+
+const originalUrl = (name) =>
+  `${BASE}/Originales/${encodeURIComponent(name)}`;
 
 export default function Gallery() {
   const [selected, setSelected] = useState(-1);
