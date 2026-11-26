@@ -1,74 +1,74 @@
 export const photos = [
   {
-    "thumb": "foto-1.webp",
+    "thumb": "foto-001.webp",
     "original": "DSC00205.JPG"
   },
   {
-    "thumb": "foto-2.webp",
+    "thumb": "foto-002.webp",
     "original": "DSC00206.JPG"
   },
   {
-    "thumb": "foto-3.webp",
+    "thumb": "foto-003.webp",
     "original": "DSC00207.JPG"
   },
   {
-    "thumb": "foto-4.webp",
+    "thumb": "foto-004.webp",
     "original": "DSC00208.JPG"
   },
   {
-    "thumb": "foto-5.webp",
+    "thumb": "foto-005.webp",
     "original": "DSC00209.JPG"
   },
   {
-    "thumb": "foto-6.webp",
+    "thumb": "foto-006.webp",
     "original": "DSC00210.JPG"
   },
   {
-    "thumb": "foto-7.webp",
+    "thumb": "foto-007.webp",
     "original": "DSC00211.JPG"
   },
   {
-    "thumb": "foto-8.webp",
+    "thumb": "foto-008.webp",
     "original": "DSC00212.JPG"
   },
   {
-    "thumb": "foto-9.webp",
+    "thumb": "foto-009.webp",
     "original": "DSC00213.JPG"
   },
   {
-    "thumb": "foto-10.webp",
+    "thumb": "foto-010.webp",
     "original": "DSC00214.JPG"
   },
   {
-    "thumb": "foto-11.webp",
+    "thumb": "foto-011.webp",
     "original": "DSC00215.JPG"
   },
   {
-    "thumb": "foto-12.webp",
+    "thumb": "foto-012.webp",
     "original": "DSC00216.JPG"
   },
   {
-    "thumb": "foto-13.webp",
+    "thumb": "foto-013.webp",
     "original": "DSC00217.JPG"
   },
   {
-    "thumb": "foto-14.webp",
+    "thumb": "foto-014.webp",
     "original": "DSC00218.JPG"
   },
   {
-    "thumb": "foto-15.webp",
+    "thumb": "foto-015.webp",
     "original": "DSC00219.JPG"
   },
   {
-    "thumb": "foto-16.webp",
+    "thumb": "foto-016.webp",
     "original": "DSC00220.JPG"
   },
   {
-    "thumb": "foto-17.webp",
+    "thumb": "foto-017.webp",
     "original": "DSC00221.JPG"
   },
   {
-    "thumb": "foto-18.webp",
+    "thumb": "foto-018.webp",
     "original": "DSC00224.JPG"
   },
   {
