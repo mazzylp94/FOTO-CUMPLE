@@ -64,9 +64,9 @@ export default function Gallery() {
       <span className="top-count">{photos.length} fotografías</span>
     </header>
     <section className="intro">
-      <div className="eyebrow">GALERÍA DE RECUERDOS</div>
+      <div className="eyebrow">RODRIGO JULIAN ZARBO</div>
       <h1>Un día para<br/><em>recordar.</em></h1>
-      <p>Todas las fotos, en un solo lugar.</p>
+      <p>Porque siempre estaran en mi esos buenos momentos.</p>
       <button className="download-all" onClick={downloadAll} disabled={busy}>
         {busy ? <LoaderCircle className="spin" size={17}/> : <Download size={17}/>}
         {busy ? progress : 'Descargar todas'}
